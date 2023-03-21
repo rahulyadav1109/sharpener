@@ -1,9 +1,8 @@
+var test=document.getElementsByClassName("list-group-item");
 
-//console.dir(document)
-
-// console.log(document.domain);
-// console.log(document.URL)
-// console.log(document.doctype);
-
-// console.log(document.links);
-document.getElementById('main-header').style.borderBottom='solid 3px #000'
+console.log(test[1]);
+test[1].style.backgroundColor='green'
+for(let i=0;i<test.length;i++)
+{
+    test[i].style.fontWeight='bold';
+}
